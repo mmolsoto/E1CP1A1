@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 	<link rel="stylesheet" href="">
+	<style>
+
+		#image1 {
+			width: "500px"; 
+			height: "500px";
+		}
+
+		#image2 {
+			max-width: 500px;
+			max-height: 500px;
+		}
+
+		/* When resize the screen the imag2 positioning different depending on the size of the screen, if this is over 500px positioning in the next line*/
+		/* when the width and height properties are fixed, the image don't resize */
+	</style>
 </head>
 <body>
-
-	<img src="images/logo.png" alt="logo desafio latam" >
-	<img src="images/logo.png" alt="logo desafio latam" >
-
+	<img src="../images/logo.png" alt="logo desafio latam" id="image1">
+	<img src="../images/logo.png" alt="logo desafio latam" id="image2">
 </body>
 </html>
